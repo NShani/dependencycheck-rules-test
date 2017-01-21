@@ -6,4 +6,10 @@
        ]]></notes>
        <cve>CVE-2016-6325</cve>
     </suppress>
+    <suppress>
+       <notes><![CDATA[
+       Issue is from Tomcat package on Red Hat Enterprise Linux (RHEL) 5 through 7, JBoss Web Server 3.0, and JBoss EWS 2
+       ]]></notes>
+       <cve>CVE-2016-5425</cve>
+    </suppress>
 </suppressions>
