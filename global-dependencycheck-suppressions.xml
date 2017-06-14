@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
     <suppress>
-       <notes><![CDATA[
-       Issue is from Tomcat package on Red Hat Enterprise Linux (RHEL) 5 through 7, JBoss Web Server 3.0, and JBoss EWS 2
-       ]]></notes>
-       <cve>CVE-2016-6325</cve>
+        <notes><![CDATA[
+        CVE-2016-7051 is only relevant to jackson-dataformat-xml according to NVD [1] and original bug report [2].
+        [1] https://github.com/FasterXML/jackson-dataformat-xml/issues/211
+        ]]></notes>
+        <cve>CVE-2016-7051</cve>
     </suppress>
     <suppress>
-       <notes><![CDATA[
-       Issue is from Tomcat package on Red Hat Enterprise Linux (RHEL) 5 through 7, JBoss Web Server 3.0, and JBoss EWS 2
-       ]]></notes>
-       <cve>CVE-2016-5425</cve>
+        <notes><![CDATA[
+        CVE-2012-4232 is only valid for "a:jcore:jcore" JCore is not used within Ballerina.
+        ]]></notes>
+        <cve>CVE-2012-4232</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2012-4231 is only valid for "a:jcore:jcore" JCore is not used within Ballerina.
+        ]]></notes>
+        <cve>CVE-2012-4231</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2015-1193 is only valid for "paxtar" Debian package [1].
+        [1] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774716
+        ]]></notes>
+        <cve>CVE-2015-1193</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2015-1194 is only valid for "paxtar" Debian package [1].
+        [1] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774716
+        ]]></notes>
+        <cve>CVE-2015-1194</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2010-4647 is only relevant to Eclipse IDE help content.
+        ]]></notes>
+        <cve>CVE-2010-4647</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2008-7271 is only relevant to Eclipse IDE help content.
+        ]]></notes>
+        <cve>CVE-2008-7271</cve>
     </suppress>
 </suppressions>
