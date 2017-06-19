@@ -35,7 +35,7 @@
     </suppress>
     <suppress>
 	<notes><![CDATA[
-	CVE-2017-5645 is relevant for Apache Log4j 2.x before 2.8.2.
+	CVE-2017-5645 is relevant for Apache Log4j 2.x before 2.8.2. Ballerina final distribution is not included this jar.
 	Reported for : org.wso2.carbon.runtime.feature-5.2.0-m3.zip: org.ops4j.pax.logging.pax-logging-api-1.9.0.jar.
 	]]></notes>
 	<cve>CVE-2017-5645</cve>
