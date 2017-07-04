@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
+    <suppress>
+        <notes><![CDATA[
+        CVE-2016-7051 is only relevant to jackson-dataformat-xml according to NVD [1] and original bug report [2].
+        [1] https://github.com/FasterXML/jackson-dataformat-xml/issues/211
+        Reported for : jackson-annotations-2.8.0.jar and jackson-core-2.8.6.jar.
+        ]]></notes>
+        <cve>CVE-2016-7051</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2012-4232 is only valid for "a:jcore:jcore" JCore is not used within Ballerina.
+        Reported for : apache-mime4j-core-0.7.2.jar.
+        ]]></notes>
+        <cve>CVE-2012-4232</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2012-4231 is only valid for "a:jcore:jcore" JCore is not used within Ballerina.
+        Reported for : apache-mime4j-core-0.7.2.jar.
+        ]]></notes>
+        <cve>CVE-2012-4231</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2015-1194 is only valid for "paxtar" Debian package [1].
+        [1] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774716
+        Reported for : org.wso2.carbon.runtime.feature-5.2.0-m3.zip: org.ops4j.pax.logging.pax-logging-api-1.9.0.jar.
+        ]]></notes>
+        <cve>CVE-2015-1194</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2015-1193 is only valid for "paxtar" Debian package [1].
+        [1] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774716
+        Reported for : org.wso2.carbon.runtime.feature-5.2.0-m3.zip: org.ops4j.pax.logging.pax-logging-api-1.9.0.jar.
+        ]]></notes>
+        <cve>CVE-2015-1193</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: org.wso2.carbon.runtime.feature-5.2.0-m3.zip: org.ops4j.pax.logging.pax-logging-log4j2-1.9.0.jar
+   ]]></notes>
+        <sha1>7e695381d34f162245b27519b69f9c54856d10ae</sha1>
+        <cpe>cpe:/a:apache:log4j</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+        CVE-2010-4647 is only relevant to Eclipse IDE help content.
+        Reported for : org.eclipse.equinox.ds-1.4.400.v20160226-2036.jar.
+        ]]></notes>
+        <cve>CVE-2010-4647</cve>
+    </suppress>
+    <suppress>
+    <notes><![CDATA[
+        CVE-2008-7271 is only relevant to Eclipse IDE help content.
+        Reported for : org.eclipse.equinox.ds-1.4.400.v20160226-2036.jar.
+        ]]></notes>
+    <cve>CVE-2008-7271</cve>
+    </suppress>
+</suppressions>
